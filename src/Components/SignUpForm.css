@@ -1,0 +1,102 @@
+form {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto 0px;
+  padding: 80px 40px;
+  background-color: steelblue;
+  border-radius: 20px;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="submit"] {
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+label {
+    padding: 0 0 0 15px;
+    margin: 0px 0 10px 0;
+}
+button {
+  font-size: 14px;
+  line-height: 35px;
+  width: 100%;
+  max-width: 100px;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  margin: 0px auto 0;
+}
+form p {
+  color: red;
+  line-height: normal;
+  margin: 0;
+}
+form h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.button.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+form .input-error {
+  border: 2px solid red;
+}
+.navbar {
+    background: #000;
+    padding: 15px 15px;
+}
+html .navbar a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+html .navbar a:nth-child(1) {
+    float: right;
+}
+.home-button {
+  display: flex;
+  flex-direction: row;
+}
+.home-button button:first-child {
+    margin-right: 15px;
+}
+.day-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 5px;
+}
+/*Table Data */
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+table thead tr th {
+    text-align: center;
+    width: 20%;
+}
+table thead {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+tbody {
+    background: lightgrey;
+    text-align: center;
+}
